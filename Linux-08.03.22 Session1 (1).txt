@@ -1,0 +1,116 @@
+commandname options arguments
+
+cat f1
+hi everyone
+good morning
+
+cat -n f1
+
+1.hi everyone
+2.good morning
+
+/root
+
+/home/harinath
+/home/kiran
+
+Last login: Tue Mar  8 01:39:43 2022 from 49.37.190.0
+[harinathreddygujjala@linux-vm ~]$ logname
+harinathreddygujjala
+[harinathreddygujjala@linux-vm ~]$ pwd
+/home/harinathreddygujjala
+[harinathreddygujjala@linux-vm ~]$ uname
+Linux
+[harinathreddygujjala@linux-vm ~]$ uname -n
+linux-vm
+[harinathreddygujjala@linux-vm ~]$ uname -r
+3.10.0-1160.59.1.el7.x86_64
+[harinathreddygujjala@linux-vm ~]$ uname -v
+#1 SMP Wed Feb 23 16:47:03 UTC 2022
+[harinathreddygujjala@linux-vm ~]$ uname -i
+x86_64
+[harinathreddygujjala@linux-vm ~]$ uname -a
+Linux linux-vm 3.10.0-1160.59.1.el7.x86_64 #1 SMP Wed Feb 23 16:47:03 UTC 2022 x86_64 x86_64 x86_64 GNU/Linux
+
+
+
+[harinathreddygujjala@linux-vm ~]$ date
+Tue Mar  8 01:58:55 UTC 2022
+[harinathreddygujjala@linux-vm ~]$ cal
+     March 2022     
+Su Mo Tu We Th Fr Sa
+       1  2  3  4  5
+ 6  7  8  9 10 11 12
+13 14 15 16 17 18 19
+20 21 22 23 24 25 26
+27 28 29 30 31
+
+
+[harinathreddygujjala@linux-vm ~]$ cal 2019
+
+
+[harinathreddygujjala@linux-vm ~]$ cal 4 2018
+     April 2018     
+Su Mo Tu We Th Fr Sa
+ 1  2  3  4  5  6  7
+ 8  9 10 11 12 13 14
+15 16 17 18 19 20 21
+22 23 24 25 26 27 28
+29 30
+
+[harinathreddygujjala@linux-vm ~]$ bc
+bc 1.06.95
+Copyright 1991-1994, 1997, 1998, 2000, 2004, 2006 Free Software Foundation, Inc.
+This is free software with ABSOLUTELY NO WARRANTY.
+For details type `warranty'. 
+4+7
+11
+6*5
+30
+5-2
+3
+quit
+
+
+[harinathreddygujjala@linux-vm ~]$ hostname
+linux-vm
+[harinathreddygujjala@linux-vm ~]$ hostname -i
+10.182.0.8
+[harinathreddygujjala@linux-vm ~]$ curl ifconfig.me
+34.125.137.183[harinathreddygujjala@linux-vm ~]$ 
+
+
+[harinathreddygujjala@linux-vm ~]$ tty
+/dev/pts/1
+[harinathreddygujjala@linux-vm ~]$ who
+harinathreddygujjala pts/1        2022-03-08 01:50 (35.235.243.66)
+[harinathreddygujjala@linux-vm ~]$ tty
+/dev/pts/1
+[harinathreddygujjala@linux-vm ~]$ who
+harinathreddygujjala pts/0        2022-03-08 02:11 (35.235.242.210)
+harinathreddygujjala pts/1        2022-03-08 01:50 (35.235.243.66)
+[harinathreddygujjala@linux-vm ~]$ 
+
+
+load average :
+
+average of no of processes which are in runnable and uninterruptable state
+
+
+
+0.5,1.5,1.6
+
+
+[harinathreddygujjala@linux-vm ~]$ whoami
+harinathreddygujjala
+[harinathreddygujjala@linux-vm ~]$ uptime
+ 02:13:25 up 36 min,  2 users,  load average: 0.00, 0.01, 0.02
+[harinathreddygujjala@linux-vm ~]$ 
+
+
+[harinathreddygujjala@linux-vm ~]$ which cd
+/usr/bin/cd
+[harinathreddygujjala@linux-vm ~]$ whereis cd
+cd: /usr/bin/cd /usr/share/man/man1/cd.1.gz
+
+
